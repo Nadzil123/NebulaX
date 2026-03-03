@@ -1,16 +1,33 @@
-buildscript {
-    repositories {
-        google()
-        mavenCentral()
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace "com.nebulax.browser"
+
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.nebulax.browser"
+        minSdk 21
+        targetSdk 34
+        versionCode 2
+        versionName "2.0"
     }
-    dependencies {
-        classpath 'com.android.tools.build:gradle:8.2.0'
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
+dependencies {
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    implementation 'androidx.core:core:1.12.0'
 }
