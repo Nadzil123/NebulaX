@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+    namespace "com.nebulax.browser"
     compileSdk 34
 
     defaultConfig {
@@ -24,8 +25,6 @@ android {
 }
 
 dependencies {
-    // Pull-to-refresh
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
-    // FileProvider for downloads & file uploads
     implementation 'androidx.core:core:1.12.0'
 }
