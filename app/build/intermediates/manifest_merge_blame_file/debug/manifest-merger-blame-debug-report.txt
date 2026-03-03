@@ -1,0 +1,42 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nebulax.browser"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/root/NebulaX/app/src/main/AndroidManifest.xml:4:5-66
+11-->/root/NebulaX/app/src/main/AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->/root/NebulaX/app/src/main/AndroidManifest.xml:6:5-21:19
+14        android:debuggable="true"
+15        android:extractNativeLibs="true"
+16        android:label="NebulaX"
+16-->/root/NebulaX/app/src/main/AndroidManifest.xml:7:9-32
+17        android:theme="@android:style/Theme.Light.NoTitleBar" >
+17-->/root/NebulaX/app/src/main/AndroidManifest.xml:8:9-62
+18        <activity
+18-->/root/NebulaX/app/src/main/AndroidManifest.xml:10:9-19:20
+19            android:name="com.nebulax.browser.MainActivity"
+19-->/root/NebulaX/app/src/main/AndroidManifest.xml:11:13-41
+20            android:exported="true" >
+20-->/root/NebulaX/app/src/main/AndroidManifest.xml:12:13-36
+21            <intent-filter>
+21-->/root/NebulaX/app/src/main/AndroidManifest.xml:14:13-17:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->/root/NebulaX/app/src/main/AndroidManifest.xml:15:17-68
+22-->/root/NebulaX/app/src/main/AndroidManifest.xml:15:25-66
+23
+24                <category android:name="android.intent.category.LAUNCHER" />
+24-->/root/NebulaX/app/src/main/AndroidManifest.xml:16:17-76
+24-->/root/NebulaX/app/src/main/AndroidManifest.xml:16:27-74
+25            </intent-filter>
+26        </activity>
+27    </application>
+28
+29</manifest>

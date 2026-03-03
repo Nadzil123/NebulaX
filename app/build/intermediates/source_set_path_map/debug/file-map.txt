@@ -1,0 +1,7 @@
+com.nebulax.browser.app-pngs-0 /root/NebulaX/app/build/generated/res/pngs/debug
+com.nebulax.browser.app-resValues-1 /root/NebulaX/app/build/generated/res/resValues/debug
+com.nebulax.browser.app-packageDebugResources-2 /root/NebulaX/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.nebulax.browser.app-packageDebugResources-3 /root/NebulaX/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.nebulax.browser.app-merged_res-4 /root/NebulaX/app/build/intermediates/merged_res/debug
+com.nebulax.browser.app-debug-5 /root/NebulaX/app/src/debug/res
+com.nebulax.browser.app-main-6 /root/NebulaX/app/src/main/res
