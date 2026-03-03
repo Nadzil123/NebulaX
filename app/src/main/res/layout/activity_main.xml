@@ -36,7 +36,6 @@
                 android:layout_width="0dp" android:layout_weight="1"
                 android:layout_height="match_parent" android:background="@null"
                 android:textColor="#E8ECF5" android:textSize="13sp"
-                android:hint="Search or type URL" android:hintTextColor="#7A839E"
                 android:singleLine="true" android:imeOptions="actionGo"
                 android:inputType="textUri" android:selectAllOnFocus="true"/>
 
@@ -76,7 +75,6 @@
             android:layout_width="0dp" android:layout_weight="1"
             android:layout_height="32dp" android:background="@drawable/url_bar_bg"
             android:textColor="#E8ECF5" android:textSize="13sp"
-            android:hint="Find in page…" android:hintTextColor="#7A839E"
             android:paddingStart="10dp" android:paddingEnd="10dp"
             android:singleLine="true" android:imeOptions="actionSearch"/>
 
